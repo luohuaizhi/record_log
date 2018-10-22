@@ -1,0 +1,8 @@
+README.md
+setup.py
+mrlog/__init__.py
+mrlog/mrlog.py
+mrlog.egg-info/PKG-INFO
+mrlog.egg-info/SOURCES.txt
+mrlog.egg-info/dependency_links.txt
+mrlog.egg-info/top_level.txt

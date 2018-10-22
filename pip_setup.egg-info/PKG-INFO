@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pip-setup
+Version: 0.0.1
+Summary: record some information to db(mongo) at flask running
+Home-page: https://github.com/luohuaizhi/record_log
+Author: luohuaizhi
+Author-email: luohuaizhi1484@163.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent

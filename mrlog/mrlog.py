@@ -14,7 +14,7 @@ except Exception as e:
     log_db = mongodb.liang_cloud_api.logs
 
 
-def print_log(func):
+def record_log(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         uid = request.user.get("u_id")
@@ -44,6 +44,6 @@ def print_log(func):
             "time": datetime.now()
         }
         log_db.insert(log_info)
-        print(log_info)
+        //print(log_info)
         return res
     return wrapper
